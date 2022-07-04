@@ -1,0 +1,16 @@
+title: JGan's
+permalink: /:title
+plugins:
+  - jekyll-sitemap
+theme: jekyll-theme-midnight
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
